@@ -1,17 +1,21 @@
 {
-    "name" : "vow",
-    "version" : "0.3.2",
-    "description" : "Promises/A+ proposal compatible promises library",
+    "name" : "mako-vow",
+    "version" : "0.0.1",
+    "description" : "Promises/A+ proposal compatible promises library, forked to include 'fulfill' and fix a context issue",
     "homepage" : "https://github.com/dfilatov/jspromise",
     "keywords" : ["nodejs", "browser", "async", "promise", "a+"],
     "author" : "Dmitry Filatov <dfilatov@yandex-team.ru>",
     "contributors" : [{
         "name"  : "Dmitry Filatov",
         "email" : "dfilatov@yandex-team.ru"
+    },
+    {
+        "name"  : "Jake Scott",
+        "email" : "Scott.iroh@gmail.com"
     }],
     "repository":{
         "type" : "git",
-        "url"  : "http://github.com/dfilatov/jspromise.git"
+        "url"  : "http://github.com/mako-taco/jspromise.git"
     },
     "dependencies": {},
     "devDependencies": {
